@@ -1,0 +1,17 @@
+
+    body {
+        background-color: rgb(30, 30, 30);
+    }
+
+    .videos{
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .thumb{
+        width:600px;
+    }
+
+   img, iframe{
+        margin:10px;
+    }

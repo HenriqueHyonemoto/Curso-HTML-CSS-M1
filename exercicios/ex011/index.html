@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Abrir site em varios dispositivos diferentes, ou com diferentes tamanhos de navegador</p>
+
+    <picture>
+        <source media="(max-width:600px )" srcset="images/3Hsmall.jpg" type="image/jpg">
+        <source media="(max-width: 1200px)" srcset="images/3Hmedium.jpg" type="image/jpg">
+        <img src="images/3Hbig.jpg" alt="Imagem Flexível Grande">
+    </picture>
+
+<h1>Reproduzindo audio</h1>
+<h2>Utilizando somente Tag "Audio"</h2>
+<audio src="audio/Prelude No. 1.mp3" controls autoplay></audio>
+<h2>Utilizando Tags Audio + Source</h2>
+<audio preload="metadata" autoplay controls loop>
+    <source src="audio/Prelude No. 1.mp3" type="audio/mpeg">
+    <source src="audio/Prelude No. 1.ogg" type="audio/ogg">
+    <source src="audio/Prelude No. 1.wav" type="audio/wav"> 
+    <p>Infelizmente seu navegador não conseguiu reproduzir o arquivo de audio. <a href="audio/Prelude-No.-1.wav" download="Prelude-No.-1.wav">Clique aqui para baixar o arquivo</a></p>
+</audio>
+
+
+</body>
+</html>
