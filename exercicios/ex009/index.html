@@ -1,35 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras Formatações</title>
+    <title>Listas</title>
 </head>
+
 <body>
-    <h1>Outras Formatações</h1>
-    <h2>Código-fonte</h2>
-    <p>O Comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript</p>
-    <pre>
-        <code>
-num = int(input('Digite um número'))
-if num % 2 == 0
-    print(f'O número {num} é 'PAR')
-else:
-    print(f''O número {num} é IMPAR')
-print('Fim do programa')
-        </code>
-    </pre>
-    <h2>Citação Simples</h2>
-    <p>Beethoven já dizia <q>A música é o vínculo que une a vida do espírito à vida dos sentidos. A melodia é a vida sensível da poesia</q></p>
-    <h2>Citação Completa</h2>
-    <p>Segundo Chopin, sobre aprendizado na música:</p>
-    <blockquote cite ="https://www.pensador.com/autor/frederic_chopin/">
-        A simplicidade é a conquista final. Depois de ter tocado uma quantidade de notas e mais notas, é a simplicidade que emerge como a recompensa coroada da arte.
-    </blockquote>
-    <h2>Abreviações</h2>
-    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
-    <h2>Texto Invertido</h2>
-    <p><bdo dir="rtl">Right to Left</bdo></p>
-    <p><bdo dir="ltr">Left to Right</bdo></p>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="1" start="1">
+        <li>Acordar</li>
+        <li>Tomar Café</li>
+        <li>Escovar os Dentes</li>
+    </ol>
+    <h2>Listas Não-Ordenadas</h2>
+    <ul type="circle">
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <h2>Minhas Linguagens Favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <h2>Meus Jogos Favoritos</h2>
+    <ol>
+        <li>N64</li>
+        <ul>
+            <li>Banjo-Kazooie</li>
+            <li>Banjo-Tooie</li>
+        </ul>
+        <li>PS3</li>
+        <ul>
+            <li>Uncharted 3</li>
+            <li>DMC4</li>
+            <LI>GTA V</LI>
+        </ul>
+        <li>DS</li>
+        <ul>
+            <li>Super Mario: Partners in Time</li>
+        </ul>
+        <ul>
+            <li>Super Mario 64 DS</li>
+        </ul>
+    </ol>
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para criação de conteúdo de um site.</dt>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para criação do design de um site</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação criada para interatividade em sites</dd>
+    </dl>
 </body>
+
 </html>
